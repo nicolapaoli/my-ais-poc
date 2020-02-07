@@ -1,0 +1,19 @@
+{
+  "name": "my-ais-backend",
+  "version": "1.0.0",
+  "description": "Just a simple backend to expose some data",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Nicola Paoli",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "passport": "^0.4.1",
+    "passport-oauth": "^1.0.0"
+  },
+}
